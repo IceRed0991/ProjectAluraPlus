@@ -25,6 +25,7 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
 }
 
 .container {
@@ -40,6 +41,7 @@ body{
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-princial);
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
@@ -57,4 +59,40 @@ body{
     font-size: 18px;
     font-weight: 700 ;
     
+}
+
+.container__imagem{
+   margin: 1em 0 2em 0;
+    
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 15em;
+}
+.secundario__img{
+    width: 70%;
+
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-princial);
+    margin-bottom: 0.2em;
+}
+.descricao__texto{
+    color: var(--cinza-securandario);    
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
 }
